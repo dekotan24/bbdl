@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": {
+			"type": "modifyHeaders",
+			"requestHeaders": [
+				{
+					"header": "Referer",
+					"value": "https://accounts.booth.pm/orders/",
+					"operation": "set"
+				}
+			]
+		},
+		"condition": {
+			"urlFilter": "https://booth.pm/downloadables/*",
+			"resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "other"]
+		}
+	}
+]

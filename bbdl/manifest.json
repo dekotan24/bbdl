@@ -1,0 +1,41 @@
+{
+	"manifest_version": 3,
+	"name": "Booth bought items downloader",
+	"version": "1.0",
+	"description": "Boothのダウンロードページのアイテムを一括でダウンロードします。",
+	"author": "Ogura Deko",
+	"permissions": [
+		"activeTab",
+		"downloads",
+		"declarativeNetRequest"
+	],
+	"host_permissions": [
+		"https://accounts.booth.pm/orders/*",
+		"https://booth.pm/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://accounts.booth.pm/orders/*"],
+			"js": ["contentScript.js", "streamSaver.min.js"]
+		}
+	],
+	"homepage_url": "https://fanet.work",
+	"icons": {
+		"48": "icons/48.png"
+	},
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "set_referer",
+				"enabled": true,
+				"path": "rules.json"
+			}
+		]
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "bbdl.addons@fanet.work",
+			"strict_min_version": "58.0"
+		}
+	}
+}
