@@ -7,7 +7,7 @@ Boothの作品詳細ページのダウンロードリンクを自動で押して
 
 
 ## 使い方
-- Boothの作品詳細ページに移動します。
+- Boothの注文詳細ページに移動します。
 - 共有ボタンの横に「一括DL」ボタンが追加されるので、それを押します。
 ![bbld_use](https://github.com/user-attachments/assets/5d4d1e45-272e-4094-9a69-52e735c453b4)
 
