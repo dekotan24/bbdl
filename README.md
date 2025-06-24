@@ -2,6 +2,9 @@
 
 Boothの作品詳細ページのダウンロードリンクを自動で押してくれる拡張機能
 
+※動作が不安定な場合があります！（一括DLボタンが表示されない等。）
+助けてjs詳しい人！
+
 ![bbdl_main](https://github.com/user-attachments/assets/ee91bd32-05c2-4fb5-9d2f-6e6cefafd572)
 
 
