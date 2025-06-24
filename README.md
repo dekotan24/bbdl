@@ -18,8 +18,7 @@ Boothの作品詳細ページのダウンロードリンクを自動で押して
 
 ## インストール
 ### Firefox
-- Firefoxは、[ここ](https://github.com/dekotan24/bbdl/releases)からダウンロードページに飛び、xpiファイルから直接インストールしてください。
-![image](https://github.com/dekotan24/X2Twitter-Redirector/assets/27037519/75133154-d929-4ee2-81ed-9ef2836dfe63)
+- Firefoxは、`about:debugging`から「一時的なアドオンを読み込む」で何らかのファイルを選択して読み込んでください。
 
 
 ### Chrome
@@ -34,4 +33,4 @@ Boothの作品詳細ページのダウンロードリンクを自動で押して
 ## 免責事項
 この拡張機能を使用して発生した、いかなる損害・損失・法的問題については、作者は一切の責任を負わないものとします。
 
-何らかの問題がある場合は、[ご連絡](https://twitter.com/r4adb?mx=1)ください。
+何らかの問題がある場合は、Issueを立ててください。直すとは言ってない。
